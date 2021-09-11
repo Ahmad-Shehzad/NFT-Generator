@@ -1,0 +1,15 @@
+C:\Users\ahmad\source\repos\NFT Creator\NFT Creator\bin\Debug\NFT Creator.exe.config
+C:\Users\ahmad\source\repos\NFT Creator\NFT Creator\bin\Debug\NFT Creator.exe
+C:\Users\ahmad\source\repos\NFT Creator\NFT Creator\bin\Debug\NFT Creator.pdb
+C:\Users\ahmad\source\repos\NFT Creator\NFT Creator\obj\Debug\NFT Creator.csproj.AssemblyReference.cache
+C:\Users\ahmad\source\repos\NFT Creator\NFT Creator\obj\Debug\NFT_Creator.Properties.Resources.resources
+C:\Users\ahmad\source\repos\NFT Creator\NFT Creator\obj\Debug\NFT Creator.csproj.GenerateResource.cache
+C:\Users\ahmad\source\repos\NFT Creator\NFT Creator\obj\Debug\NFT Creator.csproj.CoreCompileInputs.cache
+C:\Users\ahmad\source\repos\NFT Creator\NFT Creator\obj\Debug\NFT Creator.exe
+C:\Users\ahmad\source\repos\NFT Creator\NFT Creator\obj\Debug\NFT Creator.pdb
+C:\Users\ahmad\source\repos\NFT Creator\NFT Creator\obj\Debug\NFT_Creator.Form1.resources
+C:\Users\ahmad\source\repos\NFT Creator\NFT Creator\obj\Debug\NFT_Creator.Form2.resources
+C:\Users\ahmad\source\repos\NFT Creator\NFT Creator\obj\Debug\NFT_Creator.LoadPopup.resources
+C:\Users\ahmad\source\repos\NFT Creator\NFT Creator\obj\Debug\NFT_Creator.Output.resources
+C:\Users\ahmad\source\repos\NFT Creator\NFT Creator\obj\Debug\NFT_Creator.Trait.resources
+C:\Users\ahmad\source\repos\NFT Creator\NFT Creator\obj\Debug\NFT_Creator.Variant.resources
