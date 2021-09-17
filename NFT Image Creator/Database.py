@@ -3,7 +3,7 @@ import sqlite3
 class Database:
     def __init__(self, dbName):
         self.dbName = dbName
-        self.con = sqlite3.connect('C://NFT/NFT_DATABASES/' + dbName +'.db')
+        self.con = sqlite3.connect('C://NFT_DATABASES/' + dbName +'.db')
 
     def getNFT(self, id):
         stmt = "SELECT * FROM NFT WHERE ID = " + str(id)
@@ -36,7 +36,7 @@ class generateNFT:
     def save(self, image, fileName):
         newImage = pdb.gimp_image_duplicate(image)
         newImage.flatten()
-        pdb.gimp_file_save(newImage, newImage.layers[0], str(fileName) + '.png', '?')
+        pdb.gimp_file_save(newImage, newImage.layers[0], '#' + str(fileName) + '.png', '?')
         pdb.gimp_image_delete(newImage)
 
     def createImages(self):
