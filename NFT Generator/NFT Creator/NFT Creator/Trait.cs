@@ -58,7 +58,7 @@ namespace NFT_Creator
 
             SqlConnection con = new SqlConnection("Server=localhost;Database=" + db + ";Trusted_Connection=true");
 
-            String stmt1 = "CREATE TABLE " + TABLE_NAME + "(ID INT IDENTITY, VARIATION VARCHAR(100), TALLY INT, TARGET INT, BOUND INT)";
+            String stmt1 = "CREATE TABLE " + TABLE_NAME + "(ID INT IDENTITY, VARIATION VARCHAR(100), TALLY INT, TARGET INT, BOUND FLOAT)";
             SqlCommand cmd1 = new SqlCommand(stmt1, con);
 
             con.Open();

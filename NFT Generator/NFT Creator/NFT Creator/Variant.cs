@@ -37,7 +37,7 @@ namespace NFT_Creator
         private void button1_Click(object sender, EventArgs e)
         {
             String VARIANT_NAME = variantName.Text;
-            int QUOTA = 0;
+            double QUOTA = 0;
 
             //Error Handling
             if (VARIANT_NAME.Equals(""))
@@ -48,7 +48,7 @@ namespace NFT_Creator
 
             try
             {
-                QUOTA = Int16.Parse(quota.Text);
+                QUOTA = Double.Parse(quota.Text);
             }
             catch (Exception exception)
             {
@@ -56,7 +56,7 @@ namespace NFT_Creator
                 return;
             }
 
-            if (QUOTA < 1)
+            if (QUOTA <= 0)
             {
                 MessageBox.Show("Please enter an integer larger than 0 for Quota(%)", "NFT Creator", MessageBoxButtons.OK, MessageBoxIcon.Information);
                 return;
@@ -85,7 +85,7 @@ namespace NFT_Creator
                 database.updateBounds(TABLE_NAME);
                 ArrayList bounds = database.getBounds(TABLE_NAME);
                 int lastIndex = bounds.Count - 1;
-                int lastValue = (int)bounds[lastIndex];
+                double lastValue = (double)bounds[lastIndex];
 
                 if (lastValue != 100)
                 {

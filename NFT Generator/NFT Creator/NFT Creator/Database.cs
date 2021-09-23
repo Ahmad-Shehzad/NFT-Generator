@@ -81,12 +81,12 @@ namespace NFT_Creator
         {
             String variant = null;
             ArrayList bounds = getBounds(TABLE_NAME);
-            int rand = random.Next(1, 101);
+            double rand = (random.NextDouble() * 99) + 1;
             int index = 0;
 
             for (int i = 0; i < bounds.Count; i++)
             {
-                if (rand <= (int)bounds[i])
+                if (rand <= (double)bounds[i])
                 {
                     index = i + 1;
                     break;
@@ -138,14 +138,14 @@ namespace NFT_Creator
 
             while (reader.Read())
             {
-                bounds.Add((int)reader[0]);
+                bounds.Add((double)reader[0]);
             }
             con.Close();
 
             return bounds;
         }
 
-        private void setBound(String TABLE_NAME, int id, int bound)
+        private void setBound(String TABLE_NAME, int id, double bound)
         {
             String stmt = "UPDATE " + TABLE_NAME + " SET BOUND = " + bound + " WHERE ID = " + id;
             SqlCommand cmd = new SqlCommand(stmt, con);
@@ -158,13 +158,13 @@ namespace NFT_Creator
         public void updateBounds(String TABLE_NAME)
         {
             ArrayList bounds = getBounds(TABLE_NAME);
-            int total = 0;
+            double total = 0;
             if (bounds.Count > 1)
             {
-                total = (int)bounds[0];
+                total = (double)bounds[0];
                 for (int i = 1; i < bounds.Count; i++)
                 {
-                    total += (int)bounds[i];
+                    total += (double)bounds[i];
                     setBound(TABLE_NAME, i + 1, total);
                 }
             }

@@ -13,3 +13,18 @@ C:\Users\ahmad\source\repos\NFT Creator\NFT Creator\obj\Debug\NFT_Creator.LoadPo
 C:\Users\ahmad\source\repos\NFT Creator\NFT Creator\obj\Debug\NFT_Creator.Output.resources
 C:\Users\ahmad\source\repos\NFT Creator\NFT Creator\obj\Debug\NFT_Creator.Trait.resources
 C:\Users\ahmad\source\repos\NFT Creator\NFT Creator\obj\Debug\NFT_Creator.Variant.resources
+C:\git\NFT\NFT Generator\NFT Generator\NFT Creator\NFT Creator\bin\Debug\NFT Creator.exe.config
+C:\git\NFT\NFT Generator\NFT Generator\NFT Creator\NFT Creator\bin\Debug\NFT Creator.exe
+C:\git\NFT\NFT Generator\NFT Generator\NFT Creator\NFT Creator\bin\Debug\NFT Creator.pdb
+C:\git\NFT\NFT Generator\NFT Generator\NFT Creator\NFT Creator\obj\Debug\NFT Creator.csproj.AssemblyReference.cache
+C:\git\NFT\NFT Generator\NFT Generator\NFT Creator\NFT Creator\obj\Debug\NFT_Creator.Form1.resources
+C:\git\NFT\NFT Generator\NFT Generator\NFT Creator\NFT Creator\obj\Debug\NFT_Creator.Form2.resources
+C:\git\NFT\NFT Generator\NFT Generator\NFT Creator\NFT Creator\obj\Debug\NFT_Creator.LoadPopup.resources
+C:\git\NFT\NFT Generator\NFT Generator\NFT Creator\NFT Creator\obj\Debug\NFT_Creator.Output.resources
+C:\git\NFT\NFT Generator\NFT Generator\NFT Creator\NFT Creator\obj\Debug\NFT_Creator.Properties.Resources.resources
+C:\git\NFT\NFT Generator\NFT Generator\NFT Creator\NFT Creator\obj\Debug\NFT_Creator.Trait.resources
+C:\git\NFT\NFT Generator\NFT Generator\NFT Creator\NFT Creator\obj\Debug\NFT_Creator.Variant.resources
+C:\git\NFT\NFT Generator\NFT Generator\NFT Creator\NFT Creator\obj\Debug\NFT Creator.csproj.GenerateResource.cache
+C:\git\NFT\NFT Generator\NFT Generator\NFT Creator\NFT Creator\obj\Debug\NFT Creator.csproj.CoreCompileInputs.cache
+C:\git\NFT\NFT Generator\NFT Generator\NFT Creator\NFT Creator\obj\Debug\NFT Creator.exe
+C:\git\NFT\NFT Generator\NFT Generator\NFT Creator\NFT Creator\obj\Debug\NFT Creator.pdb
