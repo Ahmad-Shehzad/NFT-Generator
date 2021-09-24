@@ -39,14 +39,22 @@ class generateNFT:
         pdb.gimp_file_save(newImage, newImage.layers[0], '#' + str(fileName) + '.png', '?')
         pdb.gimp_image_delete(newImage)
 
-    def createImages(self):
+    def getLayerNames(self):
+        names = []
+        for layer in self.layers:
+            names.append(layer.name)
+        
+        return names
+
+    def createImages(self, min, max):
         db = Database(self.dbName)
-        for i in range(1, db.getCount() + 1):
+        layerNames = self.getLayerNames()
+        if max > db.getCount():
+            raise Exception("Your max value exceeds the entries in your table")
+        for i in range(min, max + 1):
             nft = db.getNFT(i)
             for x in nft:
-                for layer in self.layers:
-                    if layer.name == x + ".png":
-                        layer.visible = True
+                self.layers[layerNames.index(x + ".PNG")].visible = True
             self.save(self.image, i)
             self.clear()
 
