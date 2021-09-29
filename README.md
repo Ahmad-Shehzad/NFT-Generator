@@ -1,6 +1,11 @@
 # NFT-Generator
-Creates NFTs automatically.
+Creates NFTs automatically
 
+Pre-requisites:
+- Microsoft SQL Server installed on local machine
+- Gimp
+- SQL server to SQLite converter
+- 
 First launch NFT Creator to create database of NFTs.
 
 Convert the database to a sqlite database.
